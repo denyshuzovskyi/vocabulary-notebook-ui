@@ -9,7 +9,7 @@ This part of the application is responsible for the user interface and client-si
 You can find the backend part of the application [here](https://github.com/denyshuzovskyi/vocabulary-notebook).
 
 ## Demo
-![](Demo.gif)
+![](./Demo.gif)
 
 ## Getting Started
 

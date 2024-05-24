@@ -37,25 +37,13 @@ export default function Header() {
                             fontWeight: 700,
                             color: 'inherit',
                             textDecoration: 'none',
+                            display: 'flex',
+                            flexGrow: 1
                         }}
                     >
                         Vocabulary
                     </Typography>
 
-                    <Box sx={{ display: 'flex', flexGrow: 1 }}>
-                        <Button
-                            key='Notebooks'
-                            sx={{ my: 2, color: 'white', display: 'block' }}
-                        >
-                            Notebooks
-                        </Button>
-                        <Button
-                            key='Tests'
-                            sx={{ my: 2, color: 'white', display: 'block' }}
-                        >
-                            Tests
-                        </Button>
-                    </Box>
 
                     <Box sx={{ flexGrow: 0 }}>
                         <Tooltip title="Open settings">
